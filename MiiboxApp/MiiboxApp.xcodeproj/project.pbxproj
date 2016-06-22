@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2615FF227E4E16EE80D1C117 /* Pods_MiiboxApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F2C71B697047ADD09CB0C1 /* Pods_MiiboxApp.framework */; };
+		3D2A6A32210225465458BF81 /* Pods_MiiboxAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303FA7BEB777A94FC124EDFC /* Pods_MiiboxAppTests.framework */; };
+		6345DC8F1D10B7F900F1B492 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DC8E1D10B7F900F1B492 /* ParentViewController.swift */; };
+		6345DC921D10B83A00F1B492 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DC911D10B83A00F1B492 /* FoodViewController.swift */; };
+		6345DC941D10B84E00F1B492 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DC931D10B84E00F1B492 /* MovieViewController.swift */; };
+		6345DC961D10B8A700F1B492 /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DC951D10B8A700F1B492 /* HotelViewController.swift */; };
+		63E653F11D10B57500A7D601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E653F01D10B57500A7D601 /* AppDelegate.swift */; };
+		63E653F31D10B57500A7D601 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E653F21D10B57500A7D601 /* MainViewController.swift */; };
+		63E653F61D10B57500A7D601 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E653F41D10B57500A7D601 /* Main.storyboard */; };
+		63E653F81D10B57500A7D601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E653F71D10B57500A7D601 /* Assets.xcassets */; };
+		63E653FB1D10B57500A7D601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E653F91D10B57500A7D601 /* LaunchScreen.storyboard */; };
+		63E654061D10B57500A7D601 /* MiiboxAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E654051D10B57500A7D601 /* MiiboxAppTests.swift */; };
+		63E654111D10B57500A7D601 /* MiiboxAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E654101D10B57500A7D601 /* MiiboxAppUITests.swift */; };
+		887BC9B6F80CF1696B8A13DA /* Pods_MiiboxAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116296A6F9C47F8A3505E6D4 /* Pods_MiiboxAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63E654021D10B57500A7D601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E653E51D10B57500A7D601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E653EC1D10B57500A7D601;
+			remoteInfo = MiiboxApp;
+		};
+		63E6540D1D10B57500A7D601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63E653E51D10B57500A7D601 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E653EC1D10B57500A7D601;
+			remoteInfo = MiiboxApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116296A6F9C47F8A3505E6D4 /* Pods_MiiboxAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiiboxAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CBEC58DEC11EC2E54F8CC4 /* Pods-MiiboxAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxAppUITests/Pods-MiiboxAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		303FA7BEB777A94FC124EDFC /* Pods_MiiboxAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiiboxAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA7C1817DA0CB58F7FE111C /* Pods-MiiboxAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxAppTests/Pods-MiiboxAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4155AE1FA5B0A1E2632E41CC /* Pods-MiiboxApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxApp/Pods-MiiboxApp.debug.xcconfig"; sourceTree = "<group>"; };
+		471F92CBD831B2AFBBAA0909 /* Pods-MiiboxAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxAppTests/Pods-MiiboxAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6345DC8E1D10B7F900F1B492 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		6345DC911D10B83A00F1B492 /* FoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		6345DC931D10B84E00F1B492 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		6345DC951D10B8A700F1B492 /* HotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
+		63E653ED1D10B57500A7D601 /* MiiboxApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiiboxApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E653F01D10B57500A7D601 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63E653F21D10B57500A7D601 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		63E653F51D10B57500A7D601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63E653F71D10B57500A7D601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63E653FA1D10B57500A7D601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63E653FC1D10B57500A7D601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E654011D10B57500A7D601 /* MiiboxAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiiboxAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E654051D10B57500A7D601 /* MiiboxAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiiboxAppTests.swift; sourceTree = "<group>"; };
+		63E654071D10B57500A7D601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E6540C1D10B57500A7D601 /* MiiboxAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiiboxAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63E654101D10B57500A7D601 /* MiiboxAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiiboxAppUITests.swift; sourceTree = "<group>"; };
+		63E654121D10B57500A7D601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F2C71B697047ADD09CB0C1 /* Pods_MiiboxApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiiboxApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD666338BBD111C3324F28E3 /* Pods-MiiboxApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxApp/Pods-MiiboxApp.release.xcconfig"; sourceTree = "<group>"; };
+		C5F1875277135B303391CC91 /* Pods-MiiboxAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiiboxAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiiboxAppUITests/Pods-MiiboxAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63E653EA1D10B57500A7D601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2615FF227E4E16EE80D1C117 /* Pods_MiiboxApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E653FE1D10B57500A7D601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2A6A32210225465458BF81 /* Pods_MiiboxAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E654091D10B57500A7D601 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887BC9B6F80CF1696B8A13DA /* Pods_MiiboxAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6345DC901D10B80B00F1B492 /* SubViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63E653F21D10B57500A7D601 /* MainViewController.swift */,
+				6345DC8E1D10B7F900F1B492 /* ParentViewController.swift */,
+				6345DC911D10B83A00F1B492 /* FoodViewController.swift */,
+				6345DC931D10B84E00F1B492 /* MovieViewController.swift */,
+				6345DC951D10B8A700F1B492 /* HotelViewController.swift */,
+			);
+			name = SubViewController;
+			sourceTree = "<group>";
+		};
+		63E653E41D10B57500A7D601 = {
+			isa = PBXGroup;
+			children = (
+				63E653EF1D10B57500A7D601 /* MiiboxApp */,
+				63E654041D10B57500A7D601 /* MiiboxAppTests */,
+				63E6540F1D10B57500A7D601 /* MiiboxAppUITests */,
+				63E653EE1D10B57500A7D601 /* Products */,
+				F0D7E15CC01E7BBFBA672B47 /* Pods */,
+				FC2E96FCF3BC1321ECCC9FFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63E653EE1D10B57500A7D601 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E653ED1D10B57500A7D601 /* MiiboxApp.app */,
+				63E654011D10B57500A7D601 /* MiiboxAppTests.xctest */,
+				63E6540C1D10B57500A7D601 /* MiiboxAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63E653EF1D10B57500A7D601 /* MiiboxApp */ = {
+			isa = PBXGroup;
+			children = (
+				6345DC901D10B80B00F1B492 /* SubViewController */,
+				63E653F41D10B57500A7D601 /* Main.storyboard */,
+				63E653F01D10B57500A7D601 /* AppDelegate.swift */,
+				63E653F71D10B57500A7D601 /* Assets.xcassets */,
+				63E653F91D10B57500A7D601 /* LaunchScreen.storyboard */,
+				63E653FC1D10B57500A7D601 /* Info.plist */,
+			);
+			path = MiiboxApp;
+			sourceTree = "<group>";
+		};
+		63E654041D10B57500A7D601 /* MiiboxAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				63E654051D10B57500A7D601 /* MiiboxAppTests.swift */,
+				63E654071D10B57500A7D601 /* Info.plist */,
+			);
+			path = MiiboxAppTests;
+			sourceTree = "<group>";
+		};
+		63E6540F1D10B57500A7D601 /* MiiboxAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63E654101D10B57500A7D601 /* MiiboxAppUITests.swift */,
+				63E654121D10B57500A7D601 /* Info.plist */,
+			);
+			path = MiiboxAppUITests;
+			sourceTree = "<group>";
+		};
+		F0D7E15CC01E7BBFBA672B47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4155AE1FA5B0A1E2632E41CC /* Pods-MiiboxApp.debug.xcconfig */,
+				BD666338BBD111C3324F28E3 /* Pods-MiiboxApp.release.xcconfig */,
+				471F92CBD831B2AFBBAA0909 /* Pods-MiiboxAppTests.debug.xcconfig */,
+				3CA7C1817DA0CB58F7FE111C /* Pods-MiiboxAppTests.release.xcconfig */,
+				C5F1875277135B303391CC91 /* Pods-MiiboxAppUITests.debug.xcconfig */,
+				22CBEC58DEC11EC2E54F8CC4 /* Pods-MiiboxAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC2E96FCF3BC1321ECCC9FFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68F2C71B697047ADD09CB0C1 /* Pods_MiiboxApp.framework */,
+				303FA7BEB777A94FC124EDFC /* Pods_MiiboxAppTests.framework */,
+				116296A6F9C47F8A3505E6D4 /* Pods_MiiboxAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63E653EC1D10B57500A7D601 /* MiiboxApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E654151D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxApp" */;
+			buildPhases = (
+				1953DEA4D1EA749300E2C88F /* [CP] Check Pods Manifest.lock */,
+				63E653E91D10B57500A7D601 /* Sources */,
+				63E653EA1D10B57500A7D601 /* Frameworks */,
+				63E653EB1D10B57500A7D601 /* Resources */,
+				48276229BC98A1486B0D3271 /* [CP] Embed Pods Frameworks */,
+				1DC2DAED0BFE6EC87BE5534F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiiboxApp;
+			productName = MiiboxApp;
+			productReference = 63E653ED1D10B57500A7D601 /* MiiboxApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63E654001D10B57500A7D601 /* MiiboxAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E654181D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxAppTests" */;
+			buildPhases = (
+				B72E06538607AC118D8AA772 /* [CP] Check Pods Manifest.lock */,
+				63E653FD1D10B57500A7D601 /* Sources */,
+				63E653FE1D10B57500A7D601 /* Frameworks */,
+				63E653FF1D10B57500A7D601 /* Resources */,
+				DE3E39459A909A428D95CABE /* [CP] Embed Pods Frameworks */,
+				01674E6E242E28623FEA98A7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E654031D10B57500A7D601 /* PBXTargetDependency */,
+			);
+			name = MiiboxAppTests;
+			productName = MiiboxAppTests;
+			productReference = 63E654011D10B57500A7D601 /* MiiboxAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63E6540B1D10B57500A7D601 /* MiiboxAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63E6541B1D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxAppUITests" */;
+			buildPhases = (
+				9AEF095658BB8D043356D90C /* [CP] Check Pods Manifest.lock */,
+				63E654081D10B57500A7D601 /* Sources */,
+				63E654091D10B57500A7D601 /* Frameworks */,
+				63E6540A1D10B57500A7D601 /* Resources */,
+				22A1AFF7DA7A749591AFE4BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63E6540E1D10B57500A7D601 /* PBXTargetDependency */,
+			);
+			name = MiiboxAppUITests;
+			productName = MiiboxAppUITests;
+			productReference = 63E6540C1D10B57500A7D601 /* MiiboxAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63E653E51D10B57500A7D601 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Miibox;
+				TargetAttributes = {
+					63E653EC1D10B57500A7D601 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					63E654001D10B57500A7D601 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 63E653EC1D10B57500A7D601;
+					};
+					63E6540B1D10B57500A7D601 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 63E653EC1D10B57500A7D601;
+					};
+				};
+			};
+			buildConfigurationList = 63E653E81D10B57500A7D601 /* Build configuration list for PBXProject "MiiboxApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63E653E41D10B57500A7D601;
+			productRefGroup = 63E653EE1D10B57500A7D601 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63E653EC1D10B57500A7D601 /* MiiboxApp */,
+				63E654001D10B57500A7D601 /* MiiboxAppTests */,
+				63E6540B1D10B57500A7D601 /* MiiboxAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E653EB1D10B57500A7D601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E653FB1D10B57500A7D601 /* LaunchScreen.storyboard in Resources */,
+				63E653F81D10B57500A7D601 /* Assets.xcassets in Resources */,
+				63E653F61D10B57500A7D601 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E653FF1D10B57500A7D601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E6540A1D10B57500A7D601 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01674E6E242E28623FEA98A7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiiboxAppTests/Pods-MiiboxAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1953DEA4D1EA749300E2C88F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1DC2DAED0BFE6EC87BE5534F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiiboxApp/Pods-MiiboxApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22A1AFF7DA7A749591AFE4BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiiboxAppUITests/Pods-MiiboxAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48276229BC98A1486B0D3271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiiboxApp/Pods-MiiboxApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AEF095658BB8D043356D90C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72E06538607AC118D8AA772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3E39459A909A428D95CABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiiboxAppTests/Pods-MiiboxAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63E653E91D10B57500A7D601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E653F31D10B57500A7D601 /* MainViewController.swift in Sources */,
+				6345DC961D10B8A700F1B492 /* HotelViewController.swift in Sources */,
+				6345DC941D10B84E00F1B492 /* MovieViewController.swift in Sources */,
+				63E653F11D10B57500A7D601 /* AppDelegate.swift in Sources */,
+				6345DC921D10B83A00F1B492 /* FoodViewController.swift in Sources */,
+				6345DC8F1D10B7F900F1B492 /* ParentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E653FD1D10B57500A7D601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E654061D10B57500A7D601 /* MiiboxAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E654081D10B57500A7D601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E654111D10B57500A7D601 /* MiiboxAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63E654031D10B57500A7D601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E653EC1D10B57500A7D601 /* MiiboxApp */;
+			targetProxy = 63E654021D10B57500A7D601 /* PBXContainerItemProxy */;
+		};
+		63E6540E1D10B57500A7D601 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63E653EC1D10B57500A7D601 /* MiiboxApp */;
+			targetProxy = 63E6540D1D10B57500A7D601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63E653F41D10B57500A7D601 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E653F51D10B57500A7D601 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63E653F91D10B57500A7D601 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63E653FA1D10B57500A7D601 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63E654131D10B57500A7D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63E654141D10B57500A7D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63E654161D10B57500A7D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4155AE1FA5B0A1E2632E41CC /* Pods-MiiboxApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiiboxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63E654171D10B57500A7D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD666338BBD111C3324F28E3 /* Pods-MiiboxApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiiboxApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63E654191D10B57500A7D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 471F92CBD831B2AFBBAA0909 /* Pods-MiiboxAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiiboxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiiboxApp.app/MiiboxApp";
+			};
+			name = Debug;
+		};
+		63E6541A1D10B57500A7D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA7C1817DA0CB58F7FE111C /* Pods-MiiboxAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiiboxAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiiboxApp.app/MiiboxApp";
+			};
+			name = Release;
+		};
+		63E6541C1D10B57500A7D601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F1875277135B303391CC91 /* Pods-MiiboxAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MiiboxAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiiboxApp;
+			};
+			name = Debug;
+		};
+		63E6541D1D10B57500A7D601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CBEC58DEC11EC2E54F8CC4 /* Pods-MiiboxAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MiiboxAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiiboxApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63E653E81D10B57500A7D601 /* Build configuration list for PBXProject "MiiboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E654131D10B57500A7D601 /* Debug */,
+				63E654141D10B57500A7D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E654151D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E654161D10B57500A7D601 /* Debug */,
+				63E654171D10B57500A7D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E654181D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E654191D10B57500A7D601 /* Debug */,
+				63E6541A1D10B57500A7D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63E6541B1D10B57500A7D601 /* Build configuration list for PBXNativeTarget "MiiboxAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E6541C1D10B57500A7D601 /* Debug */,
+				63E6541D1D10B57500A7D601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63E653E51D10B57500A7D601 /* Project object */;
+}

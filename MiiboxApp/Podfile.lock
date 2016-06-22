@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Font-Awesome-Swift (1.4.7)
+  - JGProgressHUD (1.3.2)
+  - Kanna (1.0.6)
+  - MJRefresh (3.1.5)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Font-Awesome-Swift (~> 1.4.7)
+  - JGProgressHUD
+  - Kanna
+  - MJRefresh
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Font-Awesome-Swift: 0131fd0f683ac024ce9abf1fdbc9fb482150ce49
+  JGProgressHUD: ccac0ead9b771eac0ebcc2b0800efd7f1e1784dc
+  Kanna: 9f30945bbd293a609f698ea164687ccc0990ff60
+  MJRefresh: 53f348def11abbb5f8e1eaf15c39df742d543677
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 5c4fa8733be389a7d136c2132e5ff45caa71a754
+
+COCOAPODS: 1.0.1

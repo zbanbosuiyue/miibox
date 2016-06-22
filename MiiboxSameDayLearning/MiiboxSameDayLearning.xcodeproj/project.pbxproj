@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6345DCAB1D1AEF8F00F1B492 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DCAA1D1AEF8F00F1B492 /* AppDelegate.swift */; };
+		6345DCAD1D1AEF8F00F1B492 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DCAC1D1AEF8F00F1B492 /* ViewController.swift */; };
+		6345DCB01D1AEF8F00F1B492 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6345DCAE1D1AEF8F00F1B492 /* Main.storyboard */; };
+		6345DCB21D1AEF8F00F1B492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6345DCB11D1AEF8F00F1B492 /* Assets.xcassets */; };
+		6345DCB51D1AEF8F00F1B492 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6345DCB31D1AEF8F00F1B492 /* LaunchScreen.storyboard */; };
+		6345DCC01D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DCBF1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.swift */; };
+		6345DCCB1D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6345DCCA1D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6345DCBC1D1AEF8F00F1B492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6345DC9F1D1AEF8F00F1B492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6345DCA61D1AEF8F00F1B492;
+			remoteInfo = MiiboxSameDayLearning;
+		};
+		6345DCC71D1AEF8F00F1B492 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6345DC9F1D1AEF8F00F1B492 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6345DCA61D1AEF8F00F1B492;
+			remoteInfo = MiiboxSameDayLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6345DCA71D1AEF8F00F1B492 /* MiiboxSameDayLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiiboxSameDayLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345DCAA1D1AEF8F00F1B492 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6345DCAC1D1AEF8F00F1B492 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6345DCAF1D1AEF8F00F1B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6345DCB11D1AEF8F00F1B492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6345DCB41D1AEF8F00F1B492 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6345DCB61D1AEF8F00F1B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6345DCBB1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiiboxSameDayLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345DCBF1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiiboxSameDayLearningTests.swift; sourceTree = "<group>"; };
+		6345DCC11D1AEF8F00F1B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6345DCC61D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiiboxSameDayLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6345DCCA1D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiiboxSameDayLearningUITests.swift; sourceTree = "<group>"; };
+		6345DCCC1D1AEF8F00F1B492 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6345DCA41D1AEF8F00F1B492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCB81D1AEF8F00F1B492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCC31D1AEF8F00F1B492 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6345DC9E1D1AEF8F00F1B492 = {
+			isa = PBXGroup;
+			children = (
+				6345DCA91D1AEF8F00F1B492 /* MiiboxSameDayLearning */,
+				6345DCBE1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests */,
+				6345DCC91D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests */,
+				6345DCA81D1AEF8F00F1B492 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6345DCA81D1AEF8F00F1B492 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6345DCA71D1AEF8F00F1B492 /* MiiboxSameDayLearning.app */,
+				6345DCBB1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.xctest */,
+				6345DCC61D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6345DCA91D1AEF8F00F1B492 /* MiiboxSameDayLearning */ = {
+			isa = PBXGroup;
+			children = (
+				6345DCAA1D1AEF8F00F1B492 /* AppDelegate.swift */,
+				6345DCAC1D1AEF8F00F1B492 /* ViewController.swift */,
+				6345DCAE1D1AEF8F00F1B492 /* Main.storyboard */,
+				6345DCB11D1AEF8F00F1B492 /* Assets.xcassets */,
+				6345DCB31D1AEF8F00F1B492 /* LaunchScreen.storyboard */,
+				6345DCB61D1AEF8F00F1B492 /* Info.plist */,
+			);
+			path = MiiboxSameDayLearning;
+			sourceTree = "<group>";
+		};
+		6345DCBE1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				6345DCBF1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.swift */,
+				6345DCC11D1AEF8F00F1B492 /* Info.plist */,
+			);
+			path = MiiboxSameDayLearningTests;
+			sourceTree = "<group>";
+		};
+		6345DCC91D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6345DCCA1D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.swift */,
+				6345DCCC1D1AEF8F00F1B492 /* Info.plist */,
+			);
+			path = MiiboxSameDayLearningUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6345DCA61D1AEF8F00F1B492 /* MiiboxSameDayLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345DCCF1D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearning" */;
+			buildPhases = (
+				6345DCA31D1AEF8F00F1B492 /* Sources */,
+				6345DCA41D1AEF8F00F1B492 /* Frameworks */,
+				6345DCA51D1AEF8F00F1B492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiiboxSameDayLearning;
+			productName = MiiboxSameDayLearning;
+			productReference = 6345DCA71D1AEF8F00F1B492 /* MiiboxSameDayLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6345DCBA1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345DCD21D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearningTests" */;
+			buildPhases = (
+				6345DCB71D1AEF8F00F1B492 /* Sources */,
+				6345DCB81D1AEF8F00F1B492 /* Frameworks */,
+				6345DCB91D1AEF8F00F1B492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6345DCBD1D1AEF8F00F1B492 /* PBXTargetDependency */,
+			);
+			name = MiiboxSameDayLearningTests;
+			productName = MiiboxSameDayLearningTests;
+			productReference = 6345DCBB1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6345DCC51D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6345DCD51D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearningUITests" */;
+			buildPhases = (
+				6345DCC21D1AEF8F00F1B492 /* Sources */,
+				6345DCC31D1AEF8F00F1B492 /* Frameworks */,
+				6345DCC41D1AEF8F00F1B492 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6345DCC81D1AEF8F00F1B492 /* PBXTargetDependency */,
+			);
+			name = MiiboxSameDayLearningUITests;
+			productName = MiiboxSameDayLearningUITests;
+			productReference = 6345DCC61D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6345DC9F1D1AEF8F00F1B492 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Miibox;
+				TargetAttributes = {
+					6345DCA61D1AEF8F00F1B492 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6345DCBA1D1AEF8F00F1B492 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6345DCA61D1AEF8F00F1B492;
+					};
+					6345DCC51D1AEF8F00F1B492 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6345DCA61D1AEF8F00F1B492;
+					};
+				};
+			};
+			buildConfigurationList = 6345DCA21D1AEF8F00F1B492 /* Build configuration list for PBXProject "MiiboxSameDayLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6345DC9E1D1AEF8F00F1B492;
+			productRefGroup = 6345DCA81D1AEF8F00F1B492 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6345DCA61D1AEF8F00F1B492 /* MiiboxSameDayLearning */,
+				6345DCBA1D1AEF8F00F1B492 /* MiiboxSameDayLearningTests */,
+				6345DCC51D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6345DCA51D1AEF8F00F1B492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345DCB51D1AEF8F00F1B492 /* LaunchScreen.storyboard in Resources */,
+				6345DCB21D1AEF8F00F1B492 /* Assets.xcassets in Resources */,
+				6345DCB01D1AEF8F00F1B492 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCB91D1AEF8F00F1B492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCC41D1AEF8F00F1B492 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6345DCA31D1AEF8F00F1B492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345DCAD1D1AEF8F00F1B492 /* ViewController.swift in Sources */,
+				6345DCAB1D1AEF8F00F1B492 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCB71D1AEF8F00F1B492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345DCC01D1AEF8F00F1B492 /* MiiboxSameDayLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6345DCC21D1AEF8F00F1B492 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6345DCCB1D1AEF8F00F1B492 /* MiiboxSameDayLearningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6345DCBD1D1AEF8F00F1B492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6345DCA61D1AEF8F00F1B492 /* MiiboxSameDayLearning */;
+			targetProxy = 6345DCBC1D1AEF8F00F1B492 /* PBXContainerItemProxy */;
+		};
+		6345DCC81D1AEF8F00F1B492 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6345DCA61D1AEF8F00F1B492 /* MiiboxSameDayLearning */;
+			targetProxy = 6345DCC71D1AEF8F00F1B492 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6345DCAE1D1AEF8F00F1B492 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6345DCAF1D1AEF8F00F1B492 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6345DCB31D1AEF8F00F1B492 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6345DCB41D1AEF8F00F1B492 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6345DCCD1D1AEF8F00F1B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6345DCCE1D1AEF8F00F1B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6345DCD01D1AEF8F00F1B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiiboxSameDayLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6345DCD11D1AEF8F00F1B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MiiboxSameDayLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6345DCD31D1AEF8F00F1B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiiboxSameDayLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiiboxSameDayLearning.app/MiiboxSameDayLearning";
+			};
+			name = Debug;
+		};
+		6345DCD41D1AEF8F00F1B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MiiboxSameDayLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiiboxSameDayLearning.app/MiiboxSameDayLearning";
+			};
+			name = Release;
+		};
+		6345DCD61D1AEF8F00F1B492 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiiboxSameDayLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiiboxSameDayLearning;
+			};
+			name = Debug;
+		};
+		6345DCD71D1AEF8F00F1B492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MiiboxSameDayLearningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miibox.MiiboxSameDayLearningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MiiboxSameDayLearning;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6345DCA21D1AEF8F00F1B492 /* Build configuration list for PBXProject "MiiboxSameDayLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345DCCD1D1AEF8F00F1B492 /* Debug */,
+				6345DCCE1D1AEF8F00F1B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6345DCCF1D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345DCD01D1AEF8F00F1B492 /* Debug */,
+				6345DCD11D1AEF8F00F1B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6345DCD21D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345DCD31D1AEF8F00F1B492 /* Debug */,
+				6345DCD41D1AEF8F00F1B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6345DCD51D1AEF8F00F1B492 /* Build configuration list for PBXNativeTarget "MiiboxSameDayLearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6345DCD61D1AEF8F00F1B492 /* Debug */,
+				6345DCD71D1AEF8F00F1B492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6345DC9F1D1AEF8F00F1B492 /* Project object */;
+}
